@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    table {
+        border-collapse: collapse;
+        margin: auto;
+    }
+    
+</style>
+</head>
+<body>
+<h1 style="text-align:center;">Registro</h1>
+  <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <td>Nombre:</td>
+            <td><input type="text" name="nombre" id="nombre"></td>
+        </tr>
+        <tr>
+            <td>Apellido:</td>
+            <td><input type="text" name="apellido" id="apellido"></td>
+        </tr>
+        <tr>
+            <td>Usuario:</td>
+            <td><input type="text" name="usuario" id="usuario"></td>
+        </tr>
+        <tr>
+            <td>Contraseña:</td>
+            <td><input type="password" name="contra" id="contra"></td>
+        </tr>
+        <tr>
+        	<td>Seleccione su Pa&iacute;s:</td>
+        	<td>
+        			<select name="pais" id="pais">
+        				<option value="1">España</option>
+        				<option value="2">Albania</option>
+        				<option value="3">Suiza</option>
+        			</select>
+        	</td>
+        </tr> 
+        <tr>
+            <td>Tecnologias:</td>
+            <td>
+                <input type="radio" name="tec" value="java"> Java
+                <input type="radio" name="tec" value="Php"> Php
+                <input type="radio" name="tec" value="JavaScript"> JavaScript
+            </td>
+        </tr>
+        
+        <tr>
+        	<td>
+        	<input type="button" name="Guardar" value="Guardar" >
+        	</td>
+        </tr>
+    </table>
+</body>
+</html>
