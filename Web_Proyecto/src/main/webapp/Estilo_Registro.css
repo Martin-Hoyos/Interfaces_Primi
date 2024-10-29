@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+ .input-box {
+        margin-bottom: 15px;
+    }
+    
+   .control-input {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        background-color: transparent;
+        color: #333; 
+    }
+    
+      
+    .contenedor {
+        width: 400px;	
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .registar{
+	width: 50%;
+	 padding: 10px;
+/* 	 align:"center"; */
+	 cursor: pointer;
+	}
+    
+    .boton{
+    padding: 10px;
+	 text-align: center;
+	 cursor: pointer;
+    }
