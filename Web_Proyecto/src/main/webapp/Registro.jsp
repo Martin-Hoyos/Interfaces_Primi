@@ -12,13 +12,13 @@
 		<div class="conten">
 		<div class="box">
 		<h3 class="registro">Registro</h3>
-			<form action="tuServlet" method="post">
+			<form action="LoginControler" method="post">	
 			<p>╔══════════════  ≪ °❈° ≫ ══════════════╗</p>
 			<div class="input-box">
-			<input type="text" id="nombre" placeholder="Nombre Completo"  class="control-input" required>
+			<input type="text" id="nombre" name="nombre" placeholder="Nombre Completo"  class="control-input" required>
 			</div>
 			<div class="input-box">
-			<input type="email" id="Email" placeholder="Email" class="control-input" required>
+			<input type="email" id="Email" name="email" placeholder="Email" class="control-input" required>
 			</div>
 			<div class="input-box">
 			<input type="password" id="password" name="password" placeholder="Contraseña" class="control-input" required>

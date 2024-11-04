@@ -12,7 +12,7 @@
 		<div class="conte">
 			<div class="box">
 				<h3 class="Bienvenidos">Bienvenidos</h3>
-				<form action="tuServlet" method="post">
+				<form action="Registrocontrol" method="post">
 					<div class="input-box">
 						<input type="email" id="email" name="email" placeholder="Email" class="control-input" required>
 					</div>
@@ -23,8 +23,10 @@
 						<p><button type="submit" class="ingresar">Ingresar</button></p>
 					</div>
 						<p class="separador">———————————》✧《———————————</p>
+						</form>
+				<form action="Registro.jsp"  method="post">
 					<div class="botones">
-						<p><button type="button" class="nueva">Crear cuenta nueva</button></p>
+  						<p><button type="submit" class="nueva">Crear cuenta nueva</button></p>
 					</div>
 				</form>
 			</div>

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and navigation bar */
+nav {
+    text-align: right;
+    background-color: #0077b6;
+    padding: 10px 40px;
+}
+
+nav a {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Page title */
+h2 {
+    color: #0077b6;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 32px;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Message when no flights found */
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 40px;
+}
