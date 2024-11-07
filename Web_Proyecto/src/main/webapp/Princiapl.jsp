@@ -26,7 +26,7 @@
                 <input type="text" placeholder="Origen" id="Origen" name="Origen" required>
                 <input type="text" placeholder="Destino" id="Destino" name="Destino" required>
                 <input type="date" id="salida" name="salida" >
-                <button type="submit">Buscar Vuelos</button>
+                <button type="submit">Buscar Vuelos</button>	
                 </form>
             </div>
         </section>

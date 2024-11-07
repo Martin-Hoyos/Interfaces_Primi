@@ -36,7 +36,6 @@ public class Vuelos_paris extends HttpServlet {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
             
-            // Consulta SQL para obtener todos los vuelos con destino a "París"
             String sql = "SELECT origen, destino, fecha, precio FROM vuelos_pri WHERE destino = ?";
             PreparedStatement stmt = conn.prepareStatement(sql);
             stmt.setString(1, "Paris"); 
